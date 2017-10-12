@@ -1,26 +1,25 @@
 {
-  "name": "passport-facebook",
-  "version": "2.1.1",
-  "description": "Facebook authentication strategy for Passport.",
+  "name": "passport-zalo",
+  "version": "1.0.0",
+  "description": "Zalo authentication strategy for Passport.",
   "keywords": [
     "passport",
-    "facebook",
+    "zalo",
     "auth",
-    "authn",
     "authentication",
     "identity"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Naustudio",
+    "email": "tung.tran@naustud.io",
+    "url": "https://naustud.io/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-facebook.git"
+    "url": "git://github.com/naustudio/passport-zalo.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-facebook/issues"
+    "url": "http://github.com/naustudio/passport-zalo/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -31,7 +30,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth2": "1.x.x"
+    "passport-oauth2": "git+https://github.com/naustudio/passport-oauth2.git"
   },
   "devDependencies": {
     "make-node": "0.3.x",
